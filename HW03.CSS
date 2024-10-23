@@ -1,0 +1,53 @@
+.profile {
+  display: flex;
+  width: 635px;
+  height: 882px;
+  padding: 20px;
+  align-items: flex-start;
+}
+.profile-name {
+  padding-left: 28px;
+  padding-top: 28px;
+}
+.profile-name h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+.profile-name h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+.profile-img {
+  width: 72px;
+  border-radius: 50%;
+  padding-top: 16px;
+}
+.experience {
+  width: 335px;
+  height: 630px;
+  padding-left: 28px;
+  /* padding-top: 50px; */
+  font-family: Arial;
+  font-size: 9px;
+  line-height: 18px;
+  text-align: left;
+  text-align: start;
+}
+.experience .title {
+  font-weight: bold;
+  font-size: 11px;
+}
+.experience .time {
+  color: gray;
+  font-size: 7px;
+}
+.content {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #73808d;
+  font-size: 11px;
+  line-height: 18px;
+}
+.content .title {
+  font-weight: bold;
+}
