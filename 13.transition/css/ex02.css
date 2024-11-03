@@ -1,0 +1,26 @@
+.switch-toggle {
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 50px;
+  border-radius: 99px;
+  background-color: #0000005d;
+  cursor: pointer;
+}
+/* .switch-toggle {
+  background-color: green;
+} */
+.btn::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  transition: left 2s ease;
+}
+input:checked + .btn::before {
+  left: calc(100% - 50px);
+}
