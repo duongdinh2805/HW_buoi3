@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    />
+    <style>
+      .overlay {
+        position: absolute;
+        inset: 0;
+        background: #00000066;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .js-post-list {
+        height: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Blogs</h1>
+      <button class="btn btn-primary mb-3 js-add-btn">Add new</button>
+      <div class="row">
+        <div class="col-9">
+          <input
+            type="search"
+            class="form-control mb-3 js-search"
+            placeholder="Keywords..."
+          />
+        </div>
+        <div class="col-3">
+          <div class="btn-group js-sort"></div>
+        </div>
+      </div>
+      <div class="row js-post-list"></div>
+      <ul class="pagination mt-3 justify-content-center js-pagination"></ul>
+    </div>
+    <!--Modal-->
+    <div
+      class="modal fade"
+      id="modal-form"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="overlay" id="loading">
+                <div class="d-flex justify-content-center">
+                  <div class="spinner-border" role="status"></div>
+                </div>
+              </div>
+              <fieldset disabled>
+                <div class="mb-3">
+                  <label>Title</label>
+                  <input
+                    type="text"
+                    class="form-control title"
+                    placeholder="Title..."
+                    name="title"
+                  />
+                  <span class="error error-title text-danger"></span>
+                </div>
+                <div class="mb-3">
+                  <label>Excerpt</label>
+                  <textarea
+                    class="form-control excerpt"
+                    placeholder="Excerpt..."
+                    name="excerpt"
+                  ></textarea>
+                  <span class="error error-excerpt text-danger"></span>
+                </div>
+                <div class="mb-3">
+                  <label>Content</label>
+                  <textarea
+                    class="form-control content"
+                    placeholder="Content..."
+                    name="content"
+                  ></textarea>
+                  <span class="error error-content text-danger"></span>
+                </div>
+                <button class="btn btn-success">Save</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="js/ex01.js" type="module"></script>
+  </body>
+</html>

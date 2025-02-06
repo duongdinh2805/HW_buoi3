@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  background-color: black;
+}
+.box ul {
+  padding: 10px;
+  list-style: none;
+}
+.box li a {
+  color: white;
+  text-decoration: none;
+}
+.box .menuchildren {
+  display: none;
+}
+.menuvisible {
+  background-color: green;
+  display: block !important;
+}

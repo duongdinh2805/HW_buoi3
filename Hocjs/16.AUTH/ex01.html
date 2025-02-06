@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .hide {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="js-login-form hide">
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+    <div class="js-profile hide">
+      <h2>Chào mừng bạn quay trở lại</h2>
+      <h3>Chào bạn: <span class="js-fullname">Loading...</span></h3>
+      <button class="js-logout">Logout</button>
+    </div>
+    <div class="js-profile2 hide">
+      <h2>Chào mừng bạn quay trở lại</h2>
+      <h3>Chào bạn: <span class="js-fullname2">Loading...</span></h3>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/ex01.js"></script>
+  </body>
+</html>

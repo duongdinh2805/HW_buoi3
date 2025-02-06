@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="./CSS/test.css" />
+  </head>
+  <body>
+    <div id="quiz-container">
+      <div id="question-form">
+        <textarea
+          id="questions-input"
+          placeholder="Enter questions here... (e.g., Question?\n*A. Answer A\nB. Answer B\nC. Answer C\nD. Answer D)"
+        ></textarea>
+        <button id="generate-quiz">Generate Quiz</button>
+      </div>
+      <div id="quiz-output" style="display: none">
+        <div id="quiz"></div>
+        <button id="submit-quiz">Submit</button>
+      </div>
+    </div>
+    <script src="./test.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "user1",
+      "email": "user1@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "user2",
+      "email": "user2@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "user3",
+      "email": "user3@gmail.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 2,
+      "title": "post 2",
+      "excerpt": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam impedit illum excepturi, possimus vitae accusantium? Repudiandae vel nobis reprehenderit ullam possimus, quibusdam animi fugiat esse quisquam libero dolore mollitia, laboriosam sed molestias eligendi commodi ea maxime fugit cum at aperiam. Non consectetur animi blanditiis unde vero, inventore voluptatem libero quam."
+    },
+    {
+      "id": 3,
+      "title": "post 3",
+      "excerpt": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam impedit illum excepturi, possimus vitae accusantium? Repudiandae vel nobis reprehenderit ullam possimus, quibusdam animi fugiat esse quisquam libero dolore mollitia, laboriosam sed molestias eligendi commodi ea maxime fugit cum at aperiam. Non consectetur animi blanditiis unde vero, inventore voluptatem libero quam."
+    },
+    {
+      "title": "Bài 4",
+      "excerpt": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam impedit illum excepturi, possimus vitae accusantium? Repudiandae vel nobis reprehenderit ullam possimus, quibusdam animi fugiat esse quisquam libero dolore mollitia, laboriosam sed molestias eligendi commodi ea maxime fugit cum at aperiam. Non consectetur animi blanditiis unde vero, inventore voluptatem libero quam.",
+      "content": "Nội dung bài 4",
+      "id": 4
+    },
+    {
+      "title": "Bài 5",
+      "excerpt": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam impedit illum excepturi, possimus vitae accusantium? Repudiandae vel nobis reprehenderit ullam possimus, quibusdam animi fugiat esse quisquam libero dolore mollitia, laboriosam sed molestias eligendi commodi ea maxime fugit cum at aperiam. Non consectetur animi blanditiis unde vero, inventore voluptatem libero quam.",
+      "content": "Nội dung bài 4",
+      "id": 5
+    },
+    {
+      "title": "Bài 6",
+      "excerpt": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam impedit illum excepturi, possimus vitae accusantium? Repudiandae vel nobis reprehenderit ullam possimus, quibusdam animi fugiat esse quisquam libero dolore mollitia, laboriosam sed molestias eligendi commodi ea maxime fugit cum at aperiam. Non consectetur animi blanditiis unde vero, inventore voluptatem libero quam.",
+      "content": "Nội dung bài 4",
+      "id": 6
+    },
+    {
+      "title": "Bài 7",
+      "excerpt": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam impedit illum excepturi, possimus vitae accusantium? Repudiandae vel nobis reprehenderit ullam possimus, quibusdam animi fugiat esse quisquam libero dolore mollitia, laboriosam sed molestias eligendi commodi ea maxime fugit cum at aperiam. Non consectetur animi blanditiis unde vero, inventore voluptatem libero quam.",
+      "content": "Nội dung bài 4",
+      "id": 7
+    }
+  ]
+}

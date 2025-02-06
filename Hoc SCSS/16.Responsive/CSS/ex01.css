@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  font-size: 16px;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  padding: 20px 0px 20px 0px;
+  z-index: 0;
+}
+.header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.header .container .menu1 {
+  margin-left: auto;
+}
+.header .container .menu1 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.header .container .menu1 ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+}
+.icon {
+  display: none;
+  font-size: 24px;
+}
+.icon .overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #cccccc7d;
+  z-index: 1;
+}
+.icon .overlay .menu {
+  width: 40%;
+  height: 100%;
+  background-color: black;
+  position: relative;
+  left: 0;
+  top: 0;
+  padding: 50px 30px;
+  list-style: none;
+}
+.icon .overlay .menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.header .container .button {
+  display: flex;
+  background-color: #75b7eb;
+  width: 100px;
+  height: 30px;
+  border-radius: 99px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+.header .container .button a {
+  text-decoration: none;
+  color: #fff;
+}
+@media screen and (max-width: 991.98px) {
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header .container .icon {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  .header .container .button {
+    margin-left: auto;
+  }
+  .header .container .menu1 {
+    display: none;
+  }
+  .header .container .icon > input:checked ~ .overlay {
+    display: flex;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .header .container .button {
+    display: none;
+  }
+  #menu:checked + .overlay {
+    display: flex;
+  }
+}

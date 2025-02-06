@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+i {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.slider {
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+
+.slider img {
+  flex-shrink: 0;
+  width: 100%;
+  display: none;
+}
+
+.slider img:first-child {
+  width: 100%;
+  display: block;
+}
+.next-btn,
+.priev-btn {
+  position: absolute;
+  top: 150px;
+  z-index: 999;
+}
+.next-btn {
+  left: calc(100% - 30px);
+}
+.dot {
+  display: flex;
+  gap: 5px;
+  position: relative;
+  top: -20px;
+  margin-left: 50%;
+}
+.dot span i {
+  cursor: pointer;
+  color: gray;
+  font-size: 15px;
+}
+.dot span.active i {
+  color: white;
+}
